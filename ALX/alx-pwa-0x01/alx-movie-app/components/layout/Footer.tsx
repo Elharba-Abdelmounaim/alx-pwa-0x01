@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-[#171D22] text-white py-10 px-6 md:px-10 lg:px-20">

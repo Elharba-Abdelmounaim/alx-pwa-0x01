@@ -8,7 +8,7 @@ const MovieCard: React.FC<MovieProps> = ({ title, posterImage, releaseYear }) =>
         <Image 
         priority
         className="h-[430px] w-full rounded-md hover:cursor-pointer"
-         src={posterImage || "/android-chrome-192x192.png"}
+         src={posterImage || "/icons/android-chrome-192x192.png"}
          width={100}
          height={100}
          alt={title}
